@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#fef6f0" />
+  <meta name="color-scheme" content="light" />
+  <title>Ajudoku — Logic Puzzle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <img class="logo-img" src="aju-face.png" width="48" height="48" alt="" />
+        <div>
+          <h1>Ajudoku</h1>
+        </div>
+      </div>
+      <div class="hearts" id="hearts" aria-label="Lives"></div>
+    </header>
+
+    <main id="screen-home" class="screen screen-home">
+      <div class="home-hero">
+        <img class="home-hero-img" src="aju-face.png" width="120" height="120" alt="Aju" />
+        <h2 class="home-title">The road to Kunju</h2>
+      </div>
+
+      <section class="home-card">
+        <h3 class="home-card-title">Story</h3>
+        <p class="home-story">
+          Aju met Kunju in <strong>2015</strong>. Every year since has been another step toward their
+          future together. Clear each year’s puzzle — from <strong>2015</strong> through
+          <strong>2024</strong> — and help <strong>Aju marry Kunju</strong>.
+        </p>
+      </section>
+
+      <section class="home-card">
+        <h3 class="home-card-title">Levels</h3>
+        <ol class="home-level-list" id="home-level-list" aria-label="Years 2015 through 2024"></ol>
+      </section>
+
+      <section class="home-card">
+        <h3 class="home-card-title">How to play</h3>
+        <ol class="home-rules">
+          <li>Tap a cell to cycle: <strong>empty → ✕ → Aju</strong>.</li>
+          <li>Place exactly <strong>one Aju</strong> in every row, every column, and every colored region.</li>
+          <li>Ajus must <strong>not touch</strong> — not even diagonally.</li>
+          <li>Use ✕ marks to track impossible tiles. <strong>Hint</strong> reveals one correct Aju.</li>
+          <li>You have <strong>3 hearts</strong> each year. You lose a heart whenever you put Aju in the wrong cell; lose all three and the year resets.</li>
+        </ol>
+      </section>
+
+      <div class="home-actions">
+        <button type="button" id="btn-start" class="btn primary btn-start">Start</button>
+        <button type="button" id="btn-skip-level-10" class="btn ghost btn-test-skip">Skip to Level 10 (test)</button>
+      </div>
+    </main>
+
+    <main id="screen-play" class="screen hidden">
+      <div class="level-meta">
+        <span id="level-name" class="level-name">Level 1: Acquaintance</span>
+      </div>
+      <div id="board-wrap" class="board-wrap">
+        <div id="board" class="board" role="grid"></div>
+      </div>
+
+      <div id="win-celebration" class="win-celebration hidden" aria-live="polite">
+        <div class="aju-dance-wrap">
+          <img
+            id="aju-dance-gif"
+            class="aju-dance win-media"
+            src="maroon-shirt-funny-dance.gif"
+            alt="Aju dancing"
+            width="200"
+            height="280"
+          />
+          <video
+            id="marriage-video"
+            class="aju-dance aju-dance--marriage win-media hidden"
+            playsinline
+            loop
+            preload="auto"
+            aria-label="Aju and Kunju wedding"
+          >
+            <source src="marriage.mov" type="video/quicktime" />
+          </video>
+        </div>
+        <p id="win-message" class="win-message">Aju is happy!!!</p>
+        <div class="win-actions">
+          <button type="button" id="btn-next" class="btn primary">Next year</button>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button type="button" id="btn-home" class="btn ghost">Home</button>
+        <button type="button" id="btn-reset" class="btn ghost">Reset</button>
+        <button type="button" id="btn-hint" class="btn primary">Hint</button>
+      </div>
+    </main>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+  <script src="levels.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

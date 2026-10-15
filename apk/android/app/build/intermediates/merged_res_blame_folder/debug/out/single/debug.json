@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.ajudoku.app-merged_res-4:/drawable-nodpi_ic_launcher.png.flat",
+        "source": "com.ajudoku.app-main-6:/drawable-nodpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ajudoku.app-merged_res-4:/drawable-nodpi_ic_launcher_round.png.flat",
+        "source": "com.ajudoku.app-main-6:/drawable-nodpi/ic_launcher_round.png"
+    }
+]

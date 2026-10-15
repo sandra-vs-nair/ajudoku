@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ajudoku.app"
+4    android:versionCode="4"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.ajudoku.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.ajudoku.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:4:5-22:19
+18        android:allowBackup="true"
+18-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@drawable/ic_launcher"
+22-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:6:9-45
+23        android:label="@string/app_name"
+23-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:7:9-41
+24        android:roundIcon="@drawable/ic_launcher_round"
+24-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:8:9-56
+25        android:supportsRtl="true"
+25-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:9:9-35
+26        android:theme="@style/Theme.Ajudoku" >
+26-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:10:9-45
+27        <activity
+27-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:11:9-21:20
+28            android:name="com.ajudoku.app.MainActivity"
+28-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:12:13-41
+29            android:configChanges="orientation|screenSize|keyboardHidden"
+29-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:13:13-74
+30            android:exported="true"
+30-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:14:13-36
+31            android:screenOrientation="portrait"
+31-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:15:13-49
+32            android:theme="@style/Theme.Ajudoku" >
+32-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:16:13-49
+33            <intent-filter>
+33-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:17:13-20:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:18:17-69
+34-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:18:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:19:17-77
+36-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:19:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+42            android:authorities="com.ajudoku.app.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>
