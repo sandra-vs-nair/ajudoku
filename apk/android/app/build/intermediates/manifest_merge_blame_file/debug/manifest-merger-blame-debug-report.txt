@@ -1,30 +1,30 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.ajudoku.app"
-4    android:versionCode="4"
-5    android:versionName="1.0.3" >
+4    android:versionCode="5"
+5    android:versionName="1.0.4" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="34" />
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 12        android:name="com.ajudoku.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.ajudoku.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
 17-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:4:5-22:19
 18        android:allowBackup="true"
 18-->/Users/svsnair/Desktop/Sandra/Courses/AI Coder/Ajudoku/apk/android/app/src/main/AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:icon="@drawable/ic_launcher"
@@ -62,25 +62,25 @@
 38        </activity>
 39
 40        <provider
-40-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+40-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 41            android:name="androidx.startup.InitializationProvider"
-41-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+41-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 42            android:authorities="com.ajudoku.app.androidx-startup"
-42-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+42-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 43            android:exported="false" >
-43-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+43-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 44            <meta-data
-44-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+44-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-45-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+45-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 46                android:value="androidx.startup" />
-46-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+46-->[androidx.emoji2:emoji2:1.2.0] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 47            <meta-data
-47-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 49                android:value="androidx.startup" />
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/4a74098289ba5f3f81a9fc3dfdec7abd/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/var/folders/3f/jzhv1qd51mxd1hqsnpsnt9pr0000gn/T/cursor-sandbox-cache/2d6e7a9cad8da6d9af0c7d11332e6e14/gradle/caches/transforms-3/0c97545945a2f609e9103ca2ef476be4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 50        </provider>
 51    </application>
 52

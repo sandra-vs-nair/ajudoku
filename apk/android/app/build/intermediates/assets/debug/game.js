@@ -400,14 +400,7 @@
     loadLevel();
   }
 
-  function skipToLevel10() {
-    levelIndex = 9;
-    showPlay();
-    loadLevel();
-  }
-
   document.getElementById("btn-start").addEventListener("click", startGame);
-  document.getElementById("btn-skip-level-10").addEventListener("click", skipToLevel10);
   document.getElementById("btn-home").addEventListener("click", showHome);
   document.getElementById("btn-reset").addEventListener("click", resetLevel);
   document.getElementById("btn-hint").addEventListener("click", giveHint);

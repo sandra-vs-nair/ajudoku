@@ -375,13 +375,6 @@ body {
   width: 100%;
 }
 
-.btn-test-skip {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--muted);
-  padding: 8px 14px;
-}
-
 .btn-back-home {
   width: 100%;
   margin-top: 16px;
